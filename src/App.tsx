@@ -1,4 +1,3 @@
-import React from "react";
 import { AppProvider, useAppContext } from "./context/AppContext";
 import { HomeScreen } from "./screens/HomeScreen";
 import { StyleDiscoveryScreen } from "./screens/StyleDiscoveryScreen";

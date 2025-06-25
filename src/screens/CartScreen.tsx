@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useAppContext } from "../context/AppContext";
-import { useShopCartActions } from "@shopify/shop-minis-react";
+// import { useShopCartActions } from "@shopify/shop-minis-react";
 
 interface CartProduct {
     id: string;
@@ -12,7 +12,7 @@ interface CartProduct {
 
 export function CartScreen() {
     const { state, dispatch } = useAppContext();
-    const shopCartActions = useShopCartActions();
+    // const shopCartActions = useShopCartActions();
     const [isCheckingOut, setIsCheckingOut] = useState(false);
 
     // Mock product data - in a real app this would come from product API
