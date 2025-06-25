@@ -1,4 +1,0 @@
-#include "Version.xcconfig"
-#include "BuildSettings.xcconfig"
-PRODUCT_BUNDLE_IDENTIFIER = ${BUNDLE_IDENTIFIER}.Share-Extension
-#include? "Generated.xcconfig"
